@@ -1,0 +1,3 @@
+echo === Assumptions
+echo Current user has sudo permissions which is needed to install packages via 'pkg'
+echo ===

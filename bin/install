@@ -1,0 +1,5 @@
+echo === Assumptions
+echo Current user has sudo permissions 
+echo needed to install packages via 'pkg'.
+echo ===
+sudo pkg install -y py39-pip
