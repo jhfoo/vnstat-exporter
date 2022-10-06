@@ -1,3 +1,7 @@
-echo === Assumptions
-echo Current user has sudo permissions which is needed to install packages via 'pkg'
-echo ===
+echo === Assumptions ===
+echo 1. Installed via bin/install.
+echo 2. Supported shell: zsh
+echo 3. Already installed and configured: vnstat
+echo ===================
+
+venv/bin/python3 src/main.py
