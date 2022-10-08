@@ -1,5 +1,6 @@
 # vnstat-exporter
-Prometheus exporter for vnstat
+1. Prometheus exporter for [vnstat](https://www.cyberciti.biz/faq/freebsd-install-vnstat-network-traffic-monitor-software/).
+2. Returns 5-min intervals of averaged rx and tx speed.
 
 ## Requirements
 1. FreeBSD 13.1-RELEASE (tested).
@@ -23,4 +24,4 @@ cd vnstat-exporter
 
 ## Todo
 1. Make it daemon-able without using gunicorn (capture access logs)
-2. Make port and path configurable (yaml?)
+2. Make host, port, and path configurable (yaml?)
