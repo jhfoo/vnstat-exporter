@@ -1,3 +1,7 @@
+wheel
 psutil
 fastapi
 uvicorn[standard]
+prometheus-client
+python-daemon
+gunicorn
