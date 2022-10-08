@@ -18,5 +18,9 @@ cd vnstat-exporter
 ```
 cd vnstat-exporter
 ./bin/start
+# listens on port 8080 at /api/prometheus
 ```
 
+## Todo
+1. Make it daemon-able without using gunicorn (capture access logs)
+2. Make port and path configurable (yaml?)
